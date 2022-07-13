@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.d9b91b48.js",
-    "static/media/countdown.mp3": "/static/media/countdown.7d42a28743be86bb817d.mp3",
-    "static/media/start.mp3": "/static/media/start.abd05b2c8f6a698c83d5.mp3",
-    "static/media/finished.mp3": "/static/media/finished.d03b6601e17b180e299c.mp3",
-    "static/media/endgame.mp3": "/static/media/endgame.ee6aec3782efb3c4febc.mp3",
-    "static/media/red.png": "/static/media/red.db3c0f3cfbddb6337f77.png",
-    "static/media/blue.png": "/static/media/blue.48c0760fa14a224c17c8.png",
-    "static/media/321.mp3": "/static/media/321.4324589c605c8953efec.mp3",
-    "static/media/neutral.png": "/static/media/neutral.a85875dafd6f77fc3311.png",
-    "index.html": "/index.html",
-    "main.d9b91b48.js.map": "/static/js/main.d9b91b48.js.map"
+    "main.js": "/powerplay-2022-scoring/static/js/main.1190f9e3.js",
+    "static/media/countdown.mp3": "/powerplay-2022-scoring/static/media/countdown.7d42a28743be86bb817d.mp3",
+    "static/media/start.mp3": "/powerplay-2022-scoring/static/media/start.abd05b2c8f6a698c83d5.mp3",
+    "static/media/finished.mp3": "/powerplay-2022-scoring/static/media/finished.d03b6601e17b180e299c.mp3",
+    "static/media/endgame.mp3": "/powerplay-2022-scoring/static/media/endgame.ee6aec3782efb3c4febc.mp3",
+    "static/media/red.png": "/powerplay-2022-scoring/static/media/red.db3c0f3cfbddb6337f77.png",
+    "static/media/blue.png": "/powerplay-2022-scoring/static/media/blue.48c0760fa14a224c17c8.png",
+    "static/media/321.mp3": "/powerplay-2022-scoring/static/media/321.4324589c605c8953efec.mp3",
+    "static/media/neutral.png": "/powerplay-2022-scoring/static/media/neutral.a85875dafd6f77fc3311.png",
+    "index.html": "/powerplay-2022-scoring/index.html",
+    "main.1190f9e3.js.map": "/powerplay-2022-scoring/static/js/main.1190f9e3.js.map"
   },
   "entrypoints": [
-    "static/js/main.d9b91b48.js"
+    "static/js/main.1190f9e3.js"
   ]
 }
