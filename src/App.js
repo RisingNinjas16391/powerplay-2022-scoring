@@ -14,6 +14,9 @@ import endGameSound from "./sounds/endgame.mp3";
 import finishedSound from "./sounds/finished.mp3";
 import countdownTwoSound from "./sounds/321.mp3";
 
+import blueWinVideo from "./videos/bluewinanimation.mp4";
+import redWinVideo from "./videos/redwinanimation.mp4"
+
 const DEFAULT = {
     autonomous: 15,
     countdown: 8,
@@ -78,6 +81,7 @@ export default function App() {
     const [isStarted, setStarted] = useState(false);
     const [isEndStarted, setEndStarted] = useState(false);
     const [isWinnerFinal, setWinnerFinal] = useState(false);
+    const [displayVideo, setDisplayVideo] = useState(false);
 
     const [image, setImage] = useState(neutral);
     const [toggle, setAudio] = useAudio(startSound);
@@ -109,10 +113,15 @@ export default function App() {
             const code = event.code;
 
             if (["w", "a", "s", "d"].includes(event.key)) {
-                updateBalance(code);
+                const type = updateBalance(code);
 
                 if (currentState === "finished") {
                     setWinnerFinal(true);
+
+                    if (type !== "neutral") {
+                        setDisplayVideo(true);
+                        setTimeout(() => setDisplayVideo(false), 3500);
+                    }
                 }
 
                 return;
@@ -145,7 +154,7 @@ export default function App() {
         return () => {
             document.removeEventListener("keydown", eventListener);
         }
-    }, [isStarted, currentState, toggle, setAudio, setTimer, playSound])
+    }, [isStarted, currentState, toggle, setAudio, setTimer, playSound, image])
 
     useInterval(() => {
         if (!isStarted) {
@@ -188,13 +197,37 @@ export default function App() {
     const updateBalance = (code) => {
         if (code === "KeyD") {
             setImage(blue);
+            return "blue";
         }
         else if (code === "KeyA") {
             setImage(red);
+            return "red";
         }
         else if (code === "KeyW" || code === "KeyS") {
             setImage(neutral);
+            return "neutral";
         }
+
+        return "";
+    }
+
+    if (displayVideo) {
+        return (
+            <video
+                autoPlay
+                muted
+                style={{
+                    position: "absolute",
+                    width: "100%",
+                    left: "50%",
+                    top: "50%",
+                    height: "100%",
+                    objectFit: "cover",
+                    transform: "translate(-50%, -50%)",
+                }}>
+                <source src={image === blue ? blueWinVideo : redWinVideo} type="video/mp4" />
+            </video>
+        );
     }
 
     return (
