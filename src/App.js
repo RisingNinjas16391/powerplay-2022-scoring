@@ -164,6 +164,9 @@ export default function App() {
                 playSound(finishedSound);
                 return;
             }
+            else if (stage === "endwait") {
+                playSound(finishedSound);
+            }
             else if (stage === "countdown") {
                 playSound(countdownSound);
             }
