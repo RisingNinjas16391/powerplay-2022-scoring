@@ -15,11 +15,11 @@ import finishedSound from "./sounds/finished.mp3";
 import countdownTwoSound from "./sounds/321.mp3";
 
 const DEFAULT = {
-    autonomous: 5,
+    autonomous: 15,
     countdown: 8,
-    teleop: 5,
+    teleop: 90,
     endwait: 3,
-    endgame: 10,
+    endgame: 30,
     finished: 0
 }
 
