@@ -112,6 +112,10 @@ export default function App() {
         const eventListener = (event) => {
             const code = event.code;
 
+            if (displayVideo) {
+                return;
+            }
+
             if (["w", "a", "s", "d"].includes(event.key)) {
                 const type = updateBalance(code);
 
