@@ -20,7 +20,7 @@ import redWinVideo from "./videos/redwinanimation.mp4"
 const DEFAULT = {
     autonomous: 20,
     countdown: 8,
-    teleop: 90,
+    teleop: 105,
     endwait: 3,
     endgame: 20,
     finished: 0
