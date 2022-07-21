@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/powerplay-2022-scoring/static/css/main.1ef77f68.css",
-    "main.js": "/powerplay-2022-scoring/static/js/main.3a0c963c.js",
+    "main.js": "/powerplay-2022-scoring/static/js/main.77e1acff.js",
     "static/media/redwinanimation.mp4": "/powerplay-2022-scoring/static/media/redwinanimation.360f22d1f0062aafbf5f.mp4",
     "static/media/bluewinanimation.mp4": "/powerplay-2022-scoring/static/media/bluewinanimation.dc1cd2372ffc41b8af0e.mp4",
     "static/media/countdown.mp3": "/powerplay-2022-scoring/static/media/countdown.7d42a28743be86bb817d.mp3",
@@ -14,10 +14,10 @@
     "static/media/neutral.png": "/powerplay-2022-scoring/static/media/neutral.a85875dafd6f77fc3311.png",
     "index.html": "/powerplay-2022-scoring/index.html",
     "main.1ef77f68.css.map": "/powerplay-2022-scoring/static/css/main.1ef77f68.css.map",
-    "main.3a0c963c.js.map": "/powerplay-2022-scoring/static/js/main.3a0c963c.js.map"
+    "main.77e1acff.js.map": "/powerplay-2022-scoring/static/js/main.77e1acff.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef77f68.css",
-    "static/js/main.3a0c963c.js"
+    "static/js/main.77e1acff.js"
   ]
 }
