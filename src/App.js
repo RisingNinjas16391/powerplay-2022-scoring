@@ -18,7 +18,7 @@ import blueWinVideo from "./videos/bluewinanimation.mp4";
 import redWinVideo from "./videos/redwinanimation.mp4"
 
 const DEFAULT = {
-    autonomous: 15,
+    autonomous: 20,
     countdown: 8,
     teleop: 90,
     endwait: 3,
