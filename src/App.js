@@ -22,7 +22,7 @@ const DEFAULT = {
     countdown: 8,
     teleop: 90,
     endwait: 3,
-    endgame: 30,
+    endgame: 20,
     finished: 0
 }
 
