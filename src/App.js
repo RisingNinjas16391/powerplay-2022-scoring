@@ -124,7 +124,7 @@ export default function App() {
 
                     if (type !== "neutral") {
                         setDisplayVideo(true);
-                        setTimeout(() => setDisplayVideo(false), 3500);
+                        setTimeout(() => setDisplayVideo(false), 6500);
                     }
                 }
 
